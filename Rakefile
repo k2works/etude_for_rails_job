@@ -3,4 +3,6 @@
 
 require_relative 'config/application'
 
+load 'etude_for_ops/tasks/ops.rake' if Rails.env.development?
+
 Rails.application.load_tasks

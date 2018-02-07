@@ -1,0 +1,11 @@
+concurrency: 5
+development:
+  :pidfile: /srv/app/shared/pids/sidekiq.pid
+  :logfile: /srv/app/shared/log/sidekiq_development.log
+staging:
+  :pidfile: /srv/app/shared/pids/sidekiq.pid
+  :logfile: /srv/app/shared/log/sidekiq_staging.log
+production:
+  :pidfile: /srv/app/shared/pids/sidekiq.pid
+  :logfile: /srv/app/shared/log/sidekiq_production.log
+  :concurrency: 50
