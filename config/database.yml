@@ -50,5 +50,3 @@ test:
 production:
   <<: *default
   database: etude_for_rails_job_production
-  username: etude_for_rails_job
-  password: <%= ENV['ETUDE_FOR_RAILS_JOB_DATABASE_PASSWORD'] %>

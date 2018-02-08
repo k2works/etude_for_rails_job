@@ -21,3 +21,5 @@
 .env
 ops
 .env.*
+
+/public/assets
