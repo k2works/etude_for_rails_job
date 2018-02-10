@@ -1,9 +1,10 @@
 GIT
   remote: https://github.com/k2works/etude_for_ops.git
-  revision: ebb2dd3804c8a3ea530423aa64bcdd64b06b5fa6
+  revision: 0456a6d854df4081cffa7064d2031b1e711a0ee2
   branch: feature/aws_ruby_staging
   specs:
     etude_for_ops (0.2.0)
+      aws-sdk
       dotenv
 
 GEM
